@@ -56,7 +56,7 @@
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(10px);
     position: absolute;
-    top: 250%;
+    top: 80%;
     right: 60%;
   }
   .circle {
@@ -93,7 +93,7 @@
     backdrop-filter: blur(10px);
     position: absolute;
     /* bottom: 60%; */
-    top: 170%;
+    top: 90%;
     left: 55%;
   }
   .workout-videos h5 {
@@ -112,6 +112,21 @@
     margin-top: 3.55px;
   }
   /* banner end */
+
+  /* habits section start */
+  .habits-content h2 {
+    font-size: 1.375rem;
+  }
+  .habits-image {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-top: 41px;
+  }
+  .habits-item {
+    margin-top: 28px;
+  }
+  /* habits section end */
 }
 
 /* small device responsive end */

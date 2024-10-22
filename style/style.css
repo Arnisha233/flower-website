@@ -11,6 +11,7 @@
   padding: 0;
 }
 body {
+  background-color: #000;
   font-family: "Inter", sans-serif;
 }
 /* shared style start */
@@ -211,3 +212,72 @@ header {
   margin-top: 3.55px;
 }
 /* banner section end */
+
+/* habits section start */
+.habits {
+  background-color: #000;
+  padding-top: 71px;
+}
+.habits-container {
+  background-color: #000;
+}
+.habits-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.habits-content h2 {
+  color: #fff;
+  font-size: 2.13rem;
+  font-weight: 900;
+  line-height: 100%;
+}
+.habits-content p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 0.563rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.3px;
+  width: 476px;
+  margin-top: 9px;
+}
+.habits-image {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 41px;
+}
+.habits-item {
+  margin: 0 auto;
+  width: 164px;
+  height: 194px;
+}
+.habits-item img {
+  width: 100%;
+  border-radius: 50%;
+}
+.habits-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.habits-text h3 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 100%;
+}
+.habits-text p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+  width: 164px;
+  margin-top: 4px;
+}
+/* habits section end */
