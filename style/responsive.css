@@ -18,13 +18,107 @@
     display: none;
   }
   /* navbar end */
+
+  /* banner start */
+  .banner {
+    padding-top: 36px;
+  }
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 1.598rem;
+  }
+  .banner-content p {
+    font-size: 1rem;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-image img {
+    position: relative;
+  }
+  .video-tutorial {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 10px 12px;
+    width: 110;
+    height: 51px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 250%;
+    right: 60%;
+  }
+  .circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #e6533c;
+  }
+  .video-tutorial h5 {
+    color: var(--Text-1, #fafaf9);
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+  .video-tutorial p {
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+    font-size: 0.688rem;
+    font-weight: 400;
+    line-height: 1.063rem;
+    letter-spacing: 0.031rem;
+    width: 5.313rem;
+  }
+  .workout-videos {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 14px 16px;
+    width: 146px;
+    height: 68px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    /* bottom: 60%; */
+    top: 170%;
+    left: 55%;
+  }
+  .workout-videos h5 {
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+  .workout-videos p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.577rem;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1px;
+    margin-top: 3.55px;
+  }
+  /* banner end */
 }
 
 /* small device responsive end */
 
 /* medium device responsive start */
 
-@media screen and ((min-width: 576px) and (max-width: 992px)) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
   .nav-links {
     width: 50%;
     display: flex;

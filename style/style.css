@@ -25,7 +25,7 @@ body {
 .btn {
   display: flex;
   width: 224px;
-  padding: 16px 40px;
+  padding: 11px 28px;
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
@@ -33,10 +33,12 @@ body {
   background: #e6533c;
   color: #fff;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 600;
   line-height: 22px;
+  border: none;
+  cursor: pointer;
 }
 /* shared style end */
 
@@ -79,3 +81,133 @@ header {
   display: none;
 }
 /* header section end */
+
+/* banner section start */
+.banner {
+  padding-top: 22px;
+  background-color: #000;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  gap: 118px;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-content h1 {
+  color: #fff;
+  font-size: 3.461rem;
+  font-weight: 900;
+  line-height: 100%;
+}
+.shape {
+  font-family: "Miama", sans-serif;
+  font-weight: 400;
+}
+.banner-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  margin-top: 19px;
+}
+.two-btn {
+  display: flex;
+  gap: 9px;
+  margin-top: 19px;
+}
+.btn-two {
+  width: 224px;
+  padding: 11px 28px;
+  gap: 10px;
+  border-radius: 42px;
+  background: #000;
+  border-radius: 42px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  cursor: pointer;
+}
+.banner-img {
+  width: 50%;
+}
+.banner-image img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.video-tutorial {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 14px 16px;
+  width: 146px;
+  height: 68px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  /* bottom: 60%; */
+  top: 90%;
+  right: 30%;
+}
+.circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #e6533c;
+}
+.video-tutorial h5 {
+  color: var(--Text-1, #fafaf9);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.video-tutorial p {
+  color: var(--Text-2, rgba(239, 237, 232, 0.65));
+  font-size: 0.688rem;
+  font-weight: 400;
+  line-height: 1.063rem;
+  letter-spacing: 0.031rem;
+  width: 5.313rem;
+}
+.workout-videos {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 14px 16px;
+  width: 146px;
+  height: 68px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  /* bottom: 60%; */
+  top: 50%;
+  left: 78%;
+}
+.workout-videos h5 {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.workout-videos p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.577rem;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 1px;
+  margin-top: 3.55px;
+}
+/* banner section end */
