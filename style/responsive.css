@@ -1,0 +1,43 @@
+/* small device responsive start */
+/* navbar start */
+@media screen and (max-width: 576px) {
+  .content-width {
+    width: 80%;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+    color: #fff;
+  }
+  .menu i {
+    font-size: 1.563rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  /* navbar end */
+}
+
+/* small device responsive end */
+
+/* medium device responsive start */
+
+@media screen and ((min-width: 576px) and (max-width: 992px)) {
+  .nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+/* medium device responsive end */
+
+/* large device responsive start */
+@media screen and (min-width: 992px) {
+}
+/* large device responsive end */
