@@ -25,12 +25,12 @@ body {
 }
 .btn {
   display: flex;
-  width: 224px;
+  width: 159px;
   padding: 11px 28px;
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
-  border-radius: 42px;
+  border-radius: 29px;
   background: #e6533c;
   color: #fff;
   font-family: Inter;
@@ -44,9 +44,6 @@ body {
 /* shared style end */
 
 /* header section start */
-header {
-  background-color: #000;
-}
 .navbar {
   display: flex;
   align-items: center;
@@ -55,7 +52,7 @@ header {
 .navbar h2 {
   width: 50%;
   color: #e6533c;
-  font-size: 1.563rem;
+  font-size: 1.598rem;
   font-style: italic;
   font-weight: 800;
 }
@@ -69,13 +66,13 @@ header {
 }
 .nav-item {
   color: #fff;
-  font-size: 0.75rem;
+  font-size: 0.799rem;
   font-weight: 400;
   text-decoration: none;
 }
 .active {
   padding: 8px 20px;
-  border-radius: 46px;
+  border-radius: 32px;
   background: #e6533c;
 }
 .menu {
@@ -85,8 +82,8 @@ header {
 
 /* banner section start */
 .banner {
-  padding-top: 22px;
   background-color: #000;
+  padding-top: 22px;
 }
 .banner-container {
   display: flex;
@@ -108,9 +105,9 @@ header {
 }
 .banner-content p {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 1rem;
+  font-size: 0.71rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 17px;
   text-align: justify;
   margin-top: 19px;
 }
@@ -120,28 +117,25 @@ header {
   margin-top: 19px;
 }
 .btn-two {
-  width: 224px;
+  width: 159px;
   padding: 11px 28px;
-  gap: 10px;
-  border-radius: 42px;
+  gap: 9px;
+  border-radius: 29px;
   background: #000;
-  border-radius: 42px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: Inter;
-  font-size: 0.75rem;
-  font-style: normal;
+  font-size: 0.799rem;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 15px;
   cursor: pointer;
 }
 .banner-img {
   width: 50%;
+  position: relative;
 }
 .banner-image img {
   width: 100%;
   height: 100%;
-  position: relative;
 }
 .video-tutorial {
   display: flex;
@@ -155,8 +149,7 @@ header {
   background: rgba(48, 48, 48, 0.54);
   backdrop-filter: blur(10px);
   position: absolute;
-  /* bottom: 60%; */
-  top: 90%;
+  top: 98%;
   right: 30%;
 }
 .circle {
@@ -192,8 +185,7 @@ header {
   background: rgba(48, 48, 48, 0.54);
   backdrop-filter: blur(10px);
   position: absolute;
-  /* bottom: 60%; */
-  top: 50%;
+  top: 70%;
   left: 78%;
 }
 .workout-videos h5 {
@@ -216,7 +208,8 @@ header {
 /* habits section start */
 .habits {
   background-color: #000;
-  padding-top: 71px;
+  margin-top: 71px;
+  min-height: 400px;
 }
 .habits-container {
   background-color: #000;
@@ -235,45 +228,40 @@ header {
 .habits-content p {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  font-size: 0.563rem;
-  font-style: normal;
+  font-size: 0.621rem;
   font-weight: 400;
-  line-height: 17px;
+  line-height: 12px;
   letter-spacing: 0.3px;
   width: 476px;
   margin-top: 9px;
 }
 .habits-image {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  display: flex;
+  justify-content: center;
   margin-top: 41px;
+  gap: 20px;
 }
 .habits-item {
-  margin: 0 auto;
-  width: 164px;
-  height: 194px;
+}
+.habits-item .image {
 }
 .habits-item img {
   width: 100%;
+  height: 100%;
   border-radius: 50%;
 }
-.habits-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 15px;
-}
-.habits-text h3 {
+.habits-item h3 {
   color: #fff;
-  font-size: 12px;
+  font-size: 0.799rem;
   font-weight: 600;
   line-height: 100%;
+  margin-top: 21px;
+  text-align: center;
 }
-.habits-text p {
+.habits-item p {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  font-size: 9px;
+  font-size: 0.621rem;
   font-weight: 400;
   line-height: 12px;
   letter-spacing: 0.3px;
@@ -486,14 +474,17 @@ button {
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
   margin-top: 41px;
-  background: rgba(255, 255, 255, 0.1);
   padding: 14px;
   border-radius: 12px;
 }
 .img-one {
-  height: 272px;
   border-radius: 12px;
   position: relative;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
 }
 .img-one img {
   width: 100%;
