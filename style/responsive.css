@@ -341,17 +341,6 @@
 
 /* medium device responsive start */
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
-  .nav-links {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .menu {
-    display: none;
-  }
-}
-
 /* medium device responsive end */
 
 /* large device responsive start */
